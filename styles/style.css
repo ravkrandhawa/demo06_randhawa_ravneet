@@ -1,1 +1,43 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
 
+/* New Color Palette:
+* Light Beige (Background)                #ffebc6  
+* Dark Teal (Submit Button):              #003844      
+* Light Green (Navbar Button):          #006c67      
+* Light Pink (Navbar & Footer):         #f194b4
+*/
+
+.bg-info {
+    background-color: #f194b4 !important; /* Light green for secondary backgrounds */
+}
+
+.navbar-light, .navbar-brand, .navbar-light, .navbar-nav, .nav-link {
+    color: #003844;            /* Dark green for brand name & nav links for visibility */
+    font-family: "Oswald"; 
+}
+
+.btn-info {
+    color: #ffebc6;            /* Lightest shade for text on info button for contrast */
+    background-color: #006c67; /* Light green for button background */
+    border-color: #003844;     /* Dark green for button border */
+}
+
+.btn-primary {
+    color: #ffebc6;            /* Lightest shade for text */
+    font-size: 150%;
+    background-color: #003844; /* Dark green for primary button background */
+    border-color: #f194b4;     /* Reddish-brown for border to use as accent */
+    border-width: thick;
+}
+
+.btn-outline-primary {
+    color: #003844;
+}
+
+body {
+    background-color: #ffebc6; /* Lightest shade for body background to follow the 60% rule */
+}
